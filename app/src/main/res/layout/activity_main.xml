@@ -5,16 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_orange_dark"
-    tools:context="frasedodia.cursoandroid.com.frasedodia.MainActivity">
+    android:paddingRight="@dimen/texto_nova_frase"
+    tools:context="frasedodia.cursoandroid.com.frasedodia.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/botaoNovaFraseId"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginEnd="35dp"
         android:layout_marginStart="38dp"
         android:layout_marginTop="69dp"
         android:text="@string/text_frase_dia"
+        app:layout_constraintBottom_toTopOf="@+id/textoNovaFraseId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,11 +27,11 @@
         android:id="@+id/textoNovaFraseId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="44dp"
-        android:text="TextView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="183dp"
+        android:textAlignment="viewStart"
         android:textColor="#fffefe"
         android:textSize="@dimen/texto_nova_frase"
-        app:layout_constraintStart_toStartOf="@+id/botaoNovaFraseId"
-        app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
