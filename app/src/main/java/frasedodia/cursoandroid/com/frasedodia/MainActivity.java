@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private Button botaoNovaFrase;
 
     private String[] frases={"Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos" ,
-            "teste2"};
+            "\"Os empreendedores falham, em média, 3,8 vezes antes do sucesso final. O que separa os bem-sucedidos dos outros é a persistência\" "};
 
 
 
